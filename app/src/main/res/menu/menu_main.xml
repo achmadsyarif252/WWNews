@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group
+        android:id="@+id/contentIssue"
+        android:menuCategory="container">
+        <item
+            android:id="@+id/report"
+            android:title="Laporkan" />
+
+        <item
+            android:id="@+id/notInterest"
+            android:title="Tidak menarik" />
+    </group>
+    <item
+        android:id="@+id/share"
+        android:icon="@drawable/ic_baseline_share_24"
+        android:title="Share"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/bookmark"
+        android:icon="@drawable/ic_baseline_bookmark_border_24"
+        android:title="Bookmark"
+        app:showAsAction="always" />
+
+
+</menu>
